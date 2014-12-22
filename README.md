@@ -1,4 +1,4 @@
-EasterEggHunt
+Easter Egg Hunt with Gimbal Series 10 Beacons
 =============
 
 Use Gimbal Series 10 Beacons for an (i)Beacon-enabled Easter Egg Hunt.  The Series 10 Beacons are the perfect size for hiding in plastic Easter Eggs. 
