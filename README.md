@@ -7,7 +7,7 @@ See pictures of the app in action at: http://charlesgrier.com/ibeacon-easter-egg
 
 In order for the app to work, enter your own Gimbal App Id, App Secret, and Call Back URL in your main view controller:
 
-[FYX setAppId:@"***" 
-appSecret:@"***" 
+[FYX setAppId:@"***"
+appSecret:@"***"
 callbackUrl:@"**://authcode"];
 
