@@ -11,3 +11,4 @@ In order for the app to work, enter your own Gimbal App Id, App Secret, and Call
 appSecret:@"***"
 callbackUrl:@"**://authcode"];
 
+![Alt text](http://charlesgrier.com/wp-content/uploads/2014/04/IMG_5338.png "Easter Egg Hunt")
