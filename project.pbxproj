@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE4F0D9919038627004FE32A /* Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE4F0D9719038627004FE32A /* Common.framework */; };
+		BE5988CA190327FB004B87CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE5988C9190327FB004B87CC /* Foundation.framework */; };
+		BE5988CC190327FB004B87CC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE5988CB190327FB004B87CC /* CoreGraphics.framework */; };
+		BE5988CE190327FB004B87CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE5988CD190327FB004B87CC /* UIKit.framework */; };
+		BE5988D4190327FB004B87CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE5988D2190327FB004B87CC /* InfoPlist.strings */; };
+		BE5988D6190327FB004B87CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5988D5190327FB004B87CC /* main.m */; };
+		BE5988DA190327FB004B87CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5988D9190327FB004B87CC /* AppDelegate.m */; };
+		BE5988DD190327FB004B87CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE5988DB190327FB004B87CC /* Main.storyboard */; };
+		BE5988E0190327FB004B87CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5988DF190327FB004B87CC /* ViewController.m */; };
+		BE5988E2190327FB004B87CC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE5988E1190327FB004B87CC /* Images.xcassets */; };
+		BE5988E9190327FB004B87CC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE5988E8190327FB004B87CC /* XCTest.framework */; };
+		BE5988EA190327FB004B87CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE5988C9190327FB004B87CC /* Foundation.framework */; };
+		BE5988EB190327FB004B87CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE5988CD190327FB004B87CC /* UIKit.framework */; };
+		BE5988F3190327FB004B87CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE5988F1190327FB004B87CC /* InfoPlist.strings */; };
+		BE5988F5190327FB004B87CC /* EasterEggHuntTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5988F4190327FB004B87CC /* EasterEggHuntTests.m */; };
+		BE5988FF19032891004B87CC /* egg.png in Resources */ = {isa = PBXBuildFile; fileRef = BE5988FE19032891004B87CC /* egg.png */; };
+		BE59890119032976004B87CC /* easterGrass.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE59890019032976004B87CC /* easterGrass.jpg */; };
+		BE598903190347DF004B87CC /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE598902190347DF004B87CC /* CoreBluetooth.framework */; };
+		BE598905190347F1004B87CC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE598904190347F1004B87CC /* CoreLocation.framework */; };
+		BE59890719034804004B87CC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE59890619034804004B87CC /* CoreData.framework */; };
+		BE59890919034825004B87CC /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BE59890819034825004B87CC /* libz.dylib */; };
+		BE59890B19034839004B87CC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE59890A19034839004B87CC /* MapKit.framework */; };
+		BE59890D19034847004B87CC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE59890C19034847004B87CC /* Security.framework */; };
+		BE59892519034A3D004B87CC /* ContextCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE59891719034A3D004B87CC /* ContextCore.framework */; };
+		BE59892619034A3D004B87CC /* ContextLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE59891A19034A3D004B87CC /* ContextLocation.framework */; };
+		BE59892719034A3D004B87CC /* DataModels.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BE59891C19034A3D004B87CC /* DataModels.bundle */; };
+		BE59892819034A3D004B87CC /* ContextProfiling.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE59891E19034A3D004B87CC /* ContextProfiling.framework */; };
+		BE59892919034A3D004B87CC /* rules.txt in Resources */ = {isa = PBXBuildFile; fileRef = BE59892019034A3D004B87CC /* rules.txt */; };
+		BE59892A19034A3D004B87CC /* FYX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE59892119034A3D004B87CC /* FYX.framework */; };
+		BE59892B19034A3D004B87CC /* NetworkServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE59892319034A3D004B87CC /* NetworkServices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE5988EC190327FB004B87CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE5988BE190327FA004B87CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE5988C5190327FA004B87CC;
+			remoteInfo = EasterEggHunt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE4F0D9719038627004FE32A /* Common.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Common.framework; sourceTree = "<group>"; };
+		BE5988C6190327FB004B87CC /* EasterEggHunt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasterEggHunt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE5988C9190327FB004B87CC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BE5988CB190327FB004B87CC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BE5988CD190327FB004B87CC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BE5988D1190327FB004B87CC /* EasterEggHunt-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EasterEggHunt-Info.plist"; sourceTree = "<group>"; };
+		BE5988D3190327FB004B87CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BE5988D5190327FB004B87CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE5988D7190327FB004B87CC /* EasterEggHunt-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EasterEggHunt-Prefix.pch"; sourceTree = "<group>"; };
+		BE5988D8190327FB004B87CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BE5988D9190327FB004B87CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BE5988DC190327FB004B87CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE5988DE190327FB004B87CC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BE5988DF190327FB004B87CC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BE5988E1190327FB004B87CC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BE5988E7190327FB004B87CC /* EasterEggHuntTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasterEggHuntTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE5988E8190327FB004B87CC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BE5988F0190327FB004B87CC /* EasterEggHuntTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EasterEggHuntTests-Info.plist"; sourceTree = "<group>"; };
+		BE5988F2190327FB004B87CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BE5988F4190327FB004B87CC /* EasterEggHuntTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasterEggHuntTests.m; sourceTree = "<group>"; };
+		BE5988FE19032891004B87CC /* egg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = egg.png; sourceTree = "<group>"; };
+		BE59890019032976004B87CC /* easterGrass.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = easterGrass.jpg; sourceTree = "<group>"; };
+		BE598902190347DF004B87CC /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		BE598904190347F1004B87CC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BE59890619034804004B87CC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BE59890819034825004B87CC /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		BE59890A19034839004B87CC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		BE59890C19034847004B87CC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		BE59891719034A3D004B87CC /* ContextCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ContextCore.framework; sourceTree = "<group>"; };
+		BE59891A19034A3D004B87CC /* ContextLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ContextLocation.framework; sourceTree = "<group>"; };
+		BE59891C19034A3D004B87CC /* DataModels.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DataModels.bundle; sourceTree = "<group>"; };
+		BE59891E19034A3D004B87CC /* ContextProfiling.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ContextProfiling.framework; sourceTree = "<group>"; };
+		BE59892019034A3D004B87CC /* rules.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rules.txt; sourceTree = "<group>"; };
+		BE59892119034A3D004B87CC /* FYX.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FYX.framework; sourceTree = "<group>"; };
+		BE59892319034A3D004B87CC /* NetworkServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NetworkServices.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE5988C3190327FA004B87CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE59892B19034A3D004B87CC /* NetworkServices.framework in Frameworks */,
+				BE59890D19034847004B87CC /* Security.framework in Frameworks */,
+				BE59890B19034839004B87CC /* MapKit.framework in Frameworks */,
+				BE59892619034A3D004B87CC /* ContextLocation.framework in Frameworks */,
+				BE59892A19034A3D004B87CC /* FYX.framework in Frameworks */,
+				BE59890919034825004B87CC /* libz.dylib in Frameworks */,
+				BE59892519034A3D004B87CC /* ContextCore.framework in Frameworks */,
+				BE59890719034804004B87CC /* CoreData.framework in Frameworks */,
+				BE598905190347F1004B87CC /* CoreLocation.framework in Frameworks */,
+				BE598903190347DF004B87CC /* CoreBluetooth.framework in Frameworks */,
+				BE59892819034A3D004B87CC /* ContextProfiling.framework in Frameworks */,
+				BE5988CC190327FB004B87CC /* CoreGraphics.framework in Frameworks */,
+				BE4F0D9919038627004FE32A /* Common.framework in Frameworks */,
+				BE5988CE190327FB004B87CC /* UIKit.framework in Frameworks */,
+				BE5988CA190327FB004B87CC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE5988E4190327FB004B87CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE5988E9190327FB004B87CC /* XCTest.framework in Frameworks */,
+				BE5988EB190327FB004B87CC /* UIKit.framework in Frameworks */,
+				BE5988EA190327FB004B87CC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE4F0D9619038627004FE32A /* Common.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				BE4F0D9719038627004FE32A /* Common.framework */,
+				BE4F0D9819038627004FE32A /* Resources */,
+			);
+			path = Common.embeddedframework;
+			sourceTree = "<group>";
+		};
+		BE4F0D9819038627004FE32A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BE5988BD190327FA004B87CC = {
+			isa = PBXGroup;
+			children = (
+				BE5988CF190327FB004B87CC /* EasterEggHunt */,
+				BE5988EE190327FB004B87CC /* EasterEggHuntTests */,
+				BE5988C8190327FB004B87CC /* Frameworks */,
+				BE5988C7190327FB004B87CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE5988C7190327FB004B87CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE5988C6190327FB004B87CC /* EasterEggHunt.app */,
+				BE5988E7190327FB004B87CC /* EasterEggHuntTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE5988C8190327FB004B87CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE4F0D9619038627004FE32A /* Common.embeddedframework */,
+				BE59891619034A3D004B87CC /* ContextCore.embeddedframework */,
+				BE59891919034A3D004B87CC /* ContextLocation.embeddedframework */,
+				BE59891D19034A3D004B87CC /* ContextProfiling.embeddedframework */,
+				BE59892119034A3D004B87CC /* FYX.framework */,
+				BE59892219034A3D004B87CC /* NetworkServices.embeddedframework */,
+				BE59890C19034847004B87CC /* Security.framework */,
+				BE59890A19034839004B87CC /* MapKit.framework */,
+				BE59890819034825004B87CC /* libz.dylib */,
+				BE59890619034804004B87CC /* CoreData.framework */,
+				BE598904190347F1004B87CC /* CoreLocation.framework */,
+				BE598902190347DF004B87CC /* CoreBluetooth.framework */,
+				BE5988C9190327FB004B87CC /* Foundation.framework */,
+				BE5988CB190327FB004B87CC /* CoreGraphics.framework */,
+				BE5988CD190327FB004B87CC /* UIKit.framework */,
+				BE5988E8190327FB004B87CC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE5988CF190327FB004B87CC /* EasterEggHunt */ = {
+			isa = PBXGroup;
+			children = (
+				BE5988D8190327FB004B87CC /* AppDelegate.h */,
+				BE5988D9190327FB004B87CC /* AppDelegate.m */,
+				BE5988DB190327FB004B87CC /* Main.storyboard */,
+				BE5988DE190327FB004B87CC /* ViewController.h */,
+				BE5988DF190327FB004B87CC /* ViewController.m */,
+				BE5988E1190327FB004B87CC /* Images.xcassets */,
+				BE5988D0190327FB004B87CC /* Supporting Files */,
+			);
+			path = EasterEggHunt;
+			sourceTree = "<group>";
+		};
+		BE5988D0190327FB004B87CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE5988D1190327FB004B87CC /* EasterEggHunt-Info.plist */,
+				BE59890019032976004B87CC /* easterGrass.jpg */,
+				BE5988FE19032891004B87CC /* egg.png */,
+				BE5988D2190327FB004B87CC /* InfoPlist.strings */,
+				BE5988D5190327FB004B87CC /* main.m */,
+				BE5988D7190327FB004B87CC /* EasterEggHunt-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE5988EE190327FB004B87CC /* EasterEggHuntTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE5988F4190327FB004B87CC /* EasterEggHuntTests.m */,
+				BE5988EF190327FB004B87CC /* Supporting Files */,
+			);
+			path = EasterEggHuntTests;
+			sourceTree = "<group>";
+		};
+		BE5988EF190327FB004B87CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE5988F0190327FB004B87CC /* EasterEggHuntTests-Info.plist */,
+				BE5988F1190327FB004B87CC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE59891619034A3D004B87CC /* ContextCore.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				BE59891719034A3D004B87CC /* ContextCore.framework */,
+				BE59891819034A3D004B87CC /* Resources */,
+			);
+			path = ContextCore.embeddedframework;
+			sourceTree = "<group>";
+		};
+		BE59891819034A3D004B87CC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BE59891919034A3D004B87CC /* ContextLocation.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				BE59891A19034A3D004B87CC /* ContextLocation.framework */,
+				BE59891B19034A3D004B87CC /* Resources */,
+			);
+			path = ContextLocation.embeddedframework;
+			sourceTree = "<group>";
+		};
+		BE59891B19034A3D004B87CC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BE59891C19034A3D004B87CC /* DataModels.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BE59891D19034A3D004B87CC /* ContextProfiling.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				BE59891E19034A3D004B87CC /* ContextProfiling.framework */,
+				BE59891F19034A3D004B87CC /* Resources */,
+			);
+			path = ContextProfiling.embeddedframework;
+			sourceTree = "<group>";
+		};
+		BE59891F19034A3D004B87CC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BE59892019034A3D004B87CC /* rules.txt */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BE59892219034A3D004B87CC /* NetworkServices.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				BE59892319034A3D004B87CC /* NetworkServices.framework */,
+				BE59892419034A3D004B87CC /* Resources */,
+			);
+			path = NetworkServices.embeddedframework;
+			sourceTree = "<group>";
+		};
+		BE59892419034A3D004B87CC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE5988C5190327FA004B87CC /* EasterEggHunt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE5988F8190327FB004B87CC /* Build configuration list for PBXNativeTarget "EasterEggHunt" */;
+			buildPhases = (
+				BE5988C2190327FA004B87CC /* Sources */,
+				BE5988C3190327FA004B87CC /* Frameworks */,
+				BE5988C4190327FA004B87CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasterEggHunt;
+			productName = EasterEggHunt;
+			productReference = BE5988C6190327FB004B87CC /* EasterEggHunt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE5988E6190327FB004B87CC /* EasterEggHuntTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE5988FB190327FB004B87CC /* Build configuration list for PBXNativeTarget "EasterEggHuntTests" */;
+			buildPhases = (
+				BE5988E3190327FB004B87CC /* Sources */,
+				BE5988E4190327FB004B87CC /* Frameworks */,
+				BE5988E5190327FB004B87CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE5988ED190327FB004B87CC /* PBXTargetDependency */,
+			);
+			name = EasterEggHuntTests;
+			productName = EasterEggHuntTests;
+			productReference = BE5988E7190327FB004B87CC /* EasterEggHuntTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE5988BE190327FA004B87CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = com.charlesgrier;
+				TargetAttributes = {
+					BE5988E6190327FB004B87CC = {
+						TestTargetID = BE5988C5190327FA004B87CC;
+					};
+				};
+			};
+			buildConfigurationList = BE5988C1190327FA004B87CC /* Build configuration list for PBXProject "EasterEggHunt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE5988BD190327FA004B87CC;
+			productRefGroup = BE5988C7190327FB004B87CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE5988C5190327FA004B87CC /* EasterEggHunt */,
+				BE5988E6190327FB004B87CC /* EasterEggHuntTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE5988C4190327FA004B87CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE5988E2190327FB004B87CC /* Images.xcassets in Resources */,
+				BE5988FF19032891004B87CC /* egg.png in Resources */,
+				BE5988D4190327FB004B87CC /* InfoPlist.strings in Resources */,
+				BE5988DD190327FB004B87CC /* Main.storyboard in Resources */,
+				BE59890119032976004B87CC /* easterGrass.jpg in Resources */,
+				BE59892719034A3D004B87CC /* DataModels.bundle in Resources */,
+				BE59892919034A3D004B87CC /* rules.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE5988E5190327FB004B87CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE5988F3190327FB004B87CC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE5988C2190327FA004B87CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE5988E0190327FB004B87CC /* ViewController.m in Sources */,
+				BE5988DA190327FB004B87CC /* AppDelegate.m in Sources */,
+				BE5988D6190327FB004B87CC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE5988E3190327FB004B87CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE5988F5190327FB004B87CC /* EasterEggHuntTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE5988ED190327FB004B87CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE5988C5190327FA004B87CC /* EasterEggHunt */;
+			targetProxy = BE5988EC190327FB004B87CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE5988D2190327FB004B87CC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE5988D3190327FB004B87CC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BE5988DB190327FB004B87CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE5988DC190327FB004B87CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE5988F1190327FB004B87CC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE5988F2190327FB004B87CC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE5988F6190327FB004B87CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BE5988F7190327FB004B87CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE5988F9190327FB004B87CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Common.embeddedframework",
+					/Users/chgrier/Documents/Gimbal/gimbalsdk_1.13_ios,
+					3/Frameworks/Common.embeddedframework,
+					"$(PROJECT_DIR)/ContextCore.embeddedframework",
+					"$(PROJECT_DIR)/ContextLocation.embeddedframework",
+					"$(PROJECT_DIR)/ContextProfiling.embeddedframework",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/NetworkServices.embeddedframework",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasterEggHunt/EasterEggHunt-Prefix.pch";
+				INFOPLIST_FILE = "EasterEggHunt/EasterEggHunt-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BE5988FA190327FB004B87CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Common.embeddedframework",
+					/Users/chgrier/Documents/Gimbal/gimbalsdk_1.13_ios,
+					3/Frameworks/Common.embeddedframework,
+					"$(PROJECT_DIR)/ContextCore.embeddedframework",
+					"$(PROJECT_DIR)/ContextLocation.embeddedframework",
+					"$(PROJECT_DIR)/ContextProfiling.embeddedframework",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/NetworkServices.embeddedframework",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasterEggHunt/EasterEggHunt-Prefix.pch";
+				INFOPLIST_FILE = "EasterEggHunt/EasterEggHunt-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BE5988FC190327FB004B87CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EasterEggHunt.app/EasterEggHunt";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasterEggHunt/EasterEggHunt-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EasterEggHuntTests/EasterEggHuntTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BE5988FD190327FB004B87CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EasterEggHunt.app/EasterEggHunt";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasterEggHunt/EasterEggHunt-Prefix.pch";
+				INFOPLIST_FILE = "EasterEggHuntTests/EasterEggHuntTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE5988C1190327FA004B87CC /* Build configuration list for PBXProject "EasterEggHunt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE5988F6190327FB004B87CC /* Debug */,
+				BE5988F7190327FB004B87CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE5988F8190327FB004B87CC /* Build configuration list for PBXNativeTarget "EasterEggHunt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE5988F9190327FB004B87CC /* Debug */,
+				BE5988FA190327FB004B87CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE5988FB190327FB004B87CC /* Build configuration list for PBXNativeTarget "EasterEggHuntTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE5988FC190327FB004B87CC /* Debug */,
+				BE5988FD190327FB004B87CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE5988BE190327FA004B87CC /* Project object */;
+}
